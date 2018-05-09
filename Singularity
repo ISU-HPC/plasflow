@@ -11,3 +11,4 @@ pip3 install --no-cache-dir plasFlow
 pip3 install --no-cache-dir biopython
 # Setting required library paths
 echo 'export LD_LIBRARY_PATH=/usr/local/lib/R/lib' >>$SINGULARITY_ENVIRONMENT
+echo 'export TMPDIR=/local/scratch' >>$SINGULARITY_ENVIRONMENT
